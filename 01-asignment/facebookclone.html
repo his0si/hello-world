@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Facebook</title>
+    <style>
+        .container {
+            width: 300px;
+            margin: 0 auto;
+        }
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        form {
+            margin-top: 20px;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input[type="text"], input[type="number"] {
+            width: 100%;
+            padding: 5px;
+        }
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+        .button {
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Facebook</h1>
+        <div style="width:300px; float:left;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Fb Image" height="100px">
+        </div>
+        <p>Facebook, Inc. is an American online social media and social networking service company.<br>
+        It is based in Menlo Park, California.</p>
+        <a href="https://en.wikipedia.org/wiki/Facebook">For more click here</a>
+        <form action="/action_page.php">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your Name">
+            
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age">
+            
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" checked>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            
+            <div class="button">
+                <button type="submit">Signup</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
